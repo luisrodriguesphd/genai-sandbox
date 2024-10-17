@@ -1,0 +1,11 @@
+# also keep all .gitkeep files
+!.gitkeep
+
+# Environments
+**/.env
+**/!.env.example
+**/.venv
+**/.venv/**
+
+# ignove vscode configuration
+.vscode
