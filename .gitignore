@@ -1,11 +1,7 @@
-# also keep all .gitkeep files
-!.gitkeep
-
 # Environments
-**/.env
-**/!.env.example
-**/.venv
-**/.venv/**
+# Ignore virtual environment
+single_vs_multi_agent/venv/
 
-# ignove vscode configuration
-.vscode
+# Ignore environment variables
+single_vs_multi_agent/.env
+!single_vs_multi_agent/.env.example
