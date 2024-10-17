@@ -1,7 +1,16 @@
 
 # Single vs Multi-Agent Article Writer
 
-Welcome to the **Single vs Multi-Agent Article Writer** project! This investigation aims to compare the effectiveness of single-agent versus multi-agent approaches for building an Article Writer app. Below, you'll find details about the implementation of each approach, as well as instructions for setting up the environment.
+Welcome to the **Single vs Multi-Agent Article Writer** project! This investigation aims to compare the effectiveness of single-agent versus multi-agent approaches for building an Article Writer app. 
+
+<p align="center">
+  <img src="./img/article_writer_single_vs_multi_agent.png" alt="" width="400">
+</p>
+
+<center>A visual comparison of single-agent and multi-agent approaches.</center>
+<center>Image source: Author.</center>
+
+Below, you'll find details about the implementation of each approach, as well as instructions for setting up the environment.
 
 ## Table of Contents
 
