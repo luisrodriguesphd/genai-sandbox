@@ -1,0 +1,53 @@
+{
+  "slides": [
+    {
+      "name": "title",
+      "goal": "First slide of the presentation",
+      "fields": {
+        "title": {
+          "description": "Main title of the presentation",
+          "type": "text",
+          "required": true
+        },
+        "subtitle": {
+          "description": "Supporting subtitle text",
+          "type": "text",
+          "required": false
+        }
+      }
+    },
+    {
+      "name": "section",
+      "goal": "Introduce a new section or topic",
+      "fields": {
+        "section_title": {
+          "description": "Title of the section",
+          "type": "text",
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "content_1",
+      "goal": "Present detailed information with bullet points",
+      "fields": {
+        "title": {
+          "description": "Slide title",
+          "type": "text",
+          "required": true
+        },
+        "bullet_points": {
+          "description": "List of bullet points",
+          "type": "array",
+          "items": "text",
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "thank_you",
+      "goal": "Final slide without any fields",
+      "fields": {}
+    }
+  ]
+}

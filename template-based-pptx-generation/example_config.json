@@ -1,0 +1,83 @@
+{
+  "sections": [
+    {
+      "name": "Introduction",
+      "slides": [
+        {
+          "template": "title",
+          "content": {
+            "title": "Modern Software Development",
+            "subtitle": "Best Practices and Tools for 2025"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Development Process",
+      "slides": [
+        {
+          "template": "section",
+          "content": {
+            "section_title": "Development Workflow"
+          }
+        },
+        {
+          "template": "content_1",
+          "content": {
+            "title": "Key Development Practices",
+            "bullet_points": [
+              "Version Control with Git",
+              "Continuous Integration/Deployment",
+              "Test-Driven Development",
+              "Code Reviews"
+            ]
+          }
+        },
+        {
+          "template": "content_1",
+          "content": {
+            "title": "Code Quality Practices",
+            "bullet_points": [
+              "Code Reviews",
+              "Unit Testing",
+              "Integration Testing",
+              "Static Code Analysis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Best Practices",
+      "slides": [
+        {
+          "template": "section",
+          "content": {
+            "section_title": "Development Best Practices"
+          }
+        },
+        {
+          "template": "content_1",
+          "content": {
+            "title": "Code Quality Guidelines",
+            "bullet_points": [
+              "Write Clean, Self-Documenting Code",
+              "Follow Team Coding Standards",
+              "Use Meaningful Variable Names",
+              "Keep Methods Small and Focused",
+              "Add Appropriate Comments"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Conclusion",
+      "slides": [
+        {
+          "template": "thank_you"
+        }
+      ]
+    }
+  ]
+}

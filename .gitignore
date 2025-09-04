@@ -1,7 +1,12 @@
 # Environments
-# Ignore virtual environment
-single_vs_multi_agent/venv/
+# Ignore virtual environment in all experiment directories
+*/venv/
 
-# Ignore environment variables
-single_vs_multi_agent/.env
-!single_vs_multi_agent/.env.example
+# Ignore environment variables in all experiment directories
+*/.env
+!*/.env.example
+
+# Python
+# Ignore Python bytecode files and cache directories
+*/__pycache__/
+*.py[cod]
