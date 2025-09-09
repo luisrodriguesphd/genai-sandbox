@@ -6,6 +6,7 @@ Welcome to **GenAI Sandbox**! This repository is dedicated to my personal experi
 
 - [Experiments and Investigations](#experiments-and-investigations)
   - [Comparison Between Single-Agent and Multi-Agent Approaches](#lab-1)
+  - [Template-Based PowerPoint Generation](#lab-2)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -31,6 +32,33 @@ This investigation aims to compare the effectiveness of single-agent versus mult
 <center>Image source: Author.</center>
 
 The goal is to explore the capabilities, strengths, and limitations of each approach, and to determine whether a multi-agent system provides significant advantages over a single-agent setup.
+
+<a name="lab-2"/></a>
+### 2. [Template-Based PowerPoint Generation](./template-based-pptx-generation)
+
+This project provides a Python-based solution for generating PowerPoint presentations from templates. It allows users to:
+- Define slide templates with placeholders for dynamic content
+- Use JSON configuration to specify presentation structure and content
+- Generate multiple presentations from the same template
+- Support different slide types (title, section, content with bullet points)
+
+Key features:
+- Template-based slide generation
+- JSON-based configuration
+- Schema validation
+- Support for bullet points and text replacement
+- Automatic template slide removal
+
+Example usage:
+```bash
+python main.py --template template.pptx --schema template_schema.json --config your_config.json --output generated.pptx
+```
+
+The system is particularly useful for:
+- Creating consistent presentation series
+- Automating presentation generation
+- Maintaining brand consistency across presentations
+- Integration with LLMs for automated content generation
 
 <a name="getting-started"/></a>
 ## Getting Started
