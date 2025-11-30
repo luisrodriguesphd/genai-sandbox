@@ -7,6 +7,7 @@ Welcome to **GenAI Sandbox**! This repository is dedicated to my personal experi
 - [Experiments and Investigations](#experiments-and-investigations)
   - [Comparison Between Single-Agent and Multi-Agent Approaches](#lab-1)
   - [Template-Based PowerPoint Generation](#lab-2)
+  - [Graph RAG with Neo4j and LangChain](#lab-3)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -59,6 +60,37 @@ The system is particularly useful for:
 - Automating presentation generation
 - Maintaining brand consistency across presentations
 - Integration with LLMs for automated content generation
+
+<a name="lab-3"/></a>
+### 3. [Graph RAG with Neo4j and LangChain](./graph-rag-with-neo4j-and-langchain)
+
+This investigation explores the implementation of Graph-based Retrieval Augmented Generation (GraphRAG) using Neo4j graph database and LangChain framework.
+
+<p align="center">
+  <img src="./graph-rag-with-neo4j-and-langchain/img/notebook_4_full_graph_sample_with_labels.png" alt="" width="600">
+</p>
+
+<center>Knowledge graph visualization showing entities and relationships extracted from documents.</center>
+<center>Image source: Author.</center>
+
+The project includes multiple notebooks demonstrating different approaches:
+- **Indexing Pipeline for Lexical Search**: Building knowledge graphs from PDF documents using Cypher queries
+- **Inference Pipeline for Lexical Search**: Querying the knowledge graph using lexical/keyword-based search
+- **Inference Pipeline for Semantic Search**: Implementing vector-based semantic search over the graph
+- **Indexing and Inference for Semantic Search**: Complete end-to-end implementation with embeddings
+
+Key features:
+- Multiple knowledge graph construction methods (automatic, semi-automatic, manual)
+- Integration with Neo4j Aura cloud service or local instances
+- Support for both lexical and semantic search strategies
+- Entity resolution and relationship extraction using LLMs
+- Embedding generation for semantic search capabilities
+
+The notebooks work with UN Sustainable Development Goals documents as sample data, demonstrating:
+- Document loading and chunking strategies
+- Automatic entity and relationship extraction
+- Graph visualization and schema exploration
+- Different query approaches (Cypher, vector search)
 
 <a name="getting-started"/></a>
 ## Getting Started
